@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>携帯から on wolog</title>
-    <link>https://example.com/tags/%E6%90%BA%E5%B8%AF%E3%81%8B%E3%82%89/</link>
+    <link>https://masawo.github.io/tags/%E6%90%BA%E5%B8%AF%E3%81%8B%E3%82%89/</link>
     <description>Recent content in 携帯から on wolog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Sun, 09 Nov 2008 03:00:00 +0900</lastBuildDate>
     
-	<atom:link href="https://example.com/tags/%E6%90%BA%E5%B8%AF%E3%81%8B%E3%82%89/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://masawo.github.io/tags/%E6%90%BA%E5%B8%AF%E3%81%8B%E3%82%89/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ブックファースト新宿店</title>
-      <link>https://example.com/blog/2008/11/post_112/</link>
+      <link>https://masawo.github.io/blog/2008/11/post_112/</link>
       <pubDate>Sun, 09 Nov 2008 03:00:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2008/11/post_112/</guid>
+      <guid>https://masawo.github.io/blog/2008/11/post_112/</guid>
       <description>一昨日オープンしたばかりでキレイな店内でした。 コンピュータ系の書籍も結構あるほうかな。</description>
     </item>
     
     <item>
       <title>ドコモダケアート展</title>
-      <link>https://example.com/blog/2008/10/post_111/</link>
+      <link>https://masawo.github.io/blog/2008/10/post_111/</link>
       <pubDate>Mon, 13 Oct 2008 03:00:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2008/10/post_111/</guid>
+      <guid>https://masawo.github.io/blog/2008/10/post_111/</guid>
       <description>今日までだったので見に行ってきました。 入り口にあるキノコづくしツリーが圧巻。</description>
     </item>
     
     <item>
       <title>情報断ち失敗</title>
-      <link>https://example.com/blog/2008/10/post_110/</link>
+      <link>https://masawo.github.io/blog/2008/10/post_110/</link>
       <pubDate>Fri, 10 Oct 2008 03:00:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2008/10/post_110/</guid>
+      <guid>https://masawo.github.io/blog/2008/10/post_110/</guid>
       <description>帰って代表戦を録画で観ようと情報断ちしてたのに、帰りの山手線でふとモニタを見たら結果が目に…。 情報断ちも気をつけないとダメですね。まあ親善だ</description>
     </item>
     
     <item>
       <title>ACL@埼玉</title>
-      <link>https://example.com/blog/2008/09/acl_2/</link>
+      <link>https://masawo.github.io/blog/2008/09/acl_2/</link>
       <pubDate>Wed, 24 Sep 2008 03:00:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2008/09/acl_2/</guid>
+      <guid>https://masawo.github.io/blog/2008/09/acl_2/</guid>
       <description>今日の席はバック上層の一番前。手すりがあるから前のめり必須かな。</description>
     </item>
     
     <item>
       <title>Eee PC</title>
-      <link>https://example.com/blog/2008/07/eee_pc/</link>
+      <link>https://masawo.github.io/blog/2008/07/eee_pc/</link>
       <pubDate>Sat, 12 Jul 2008 03:00:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2008/07/eee_pc/</guid>
+      <guid>https://masawo.github.io/blog/2008/07/eee_pc/</guid>
       <description>昨日ポチった901がもう届きました。 これで外でもいろいろできるかな〜。</description>
     </item>
     
     <item>
       <title>Firefox3リリースパーティー</title>
-      <link>https://example.com/blog/2008/06/firefox3/</link>
+      <link>https://masawo.github.io/blog/2008/06/firefox3/</link>
       <pubDate>Thu, 26 Jun 2008 03:00:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2008/06/firefox3/</guid>
+      <guid>https://masawo.github.io/blog/2008/06/firefox3/</guid>
       <description>にきてるよ</description>
     </item>
     
     <item>
       <title>副都心線</title>
-      <link>https://example.com/blog/2008/06/post_104/</link>
+      <link>https://masawo.github.io/blog/2008/06/post_104/</link>
       <pubDate>Mon, 16 Jun 2008 03:00:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2008/06/post_104/</guid>
+      <guid>https://masawo.github.io/blog/2008/06/post_104/</guid>
       <description>池袋〜明治神宮前を乗ってみますた。 当たり前だけどホームがきれい。多少地下深いかな。</description>
     </item>
     
     <item>
       <title>Google Developer Day 2008</title>
-      <link>https://example.com/blog/2008/06/google_developer_day_2008/</link>
+      <link>https://masawo.github.io/blog/2008/06/google_developer_day_2008/</link>
       <pubDate>Tue, 10 Jun 2008 03:00:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2008/06/google_developer_day_2008/</guid>
+      <guid>https://masawo.github.io/blog/2008/06/google_developer_day_2008/</guid>
       <description>いてきた</description>
     </item>
     
     <item>
       <title>アンテナの謎</title>
-      <link>https://example.com/blog/2008/06/post_103/</link>
+      <link>https://masawo.github.io/blog/2008/06/post_103/</link>
       <pubDate>Thu, 05 Jun 2008 03:00:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2008/06/post_103/</guid>
+      <guid>https://masawo.github.io/blog/2008/06/post_103/</guid>
       <description>&lt;div class=&#34;moblogkun-entry&#34;&gt;
 &lt;p&gt;住んでるマンションで外装工事をするので、ベランダにつけているスカパー！用のアンテナを外して、工事用の枠の外につけ直してもらうことに。&lt;br /&gt;
 &lt;br /&gt;
@@ -104,10 +104,10 @@
     
     <item>
       <title>Mozilla Party 9.0</title>
-      <link>https://example.com/blog/2008/05/mozilla_party_90/</link>
+      <link>https://masawo.github.io/blog/2008/05/mozilla_party_90/</link>
       <pubDate>Sat, 31 May 2008 03:00:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2008/05/mozilla_party_90/</guid>
+      <guid>https://masawo.github.io/blog/2008/05/mozilla_party_90/</guid>
       <description>に来てます。Tシャツいただきますた。</description>
     </item>
     

@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>wolog</title>
-    <link>https://example.com/</link>
+    <link>https://masawo.github.io/</link>
     <description>Recent content on wolog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Wed, 20 May 2020 21:54:02 +0900</lastBuildDate>
     
-	<atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://masawo.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>OctopressからHugoへ移行</title>
-      <link>https://example.com/blog/2020/05/moved/</link>
+      <link>https://masawo.github.io/blog/2020/05/moved/</link>
       <pubDate>Wed, 20 May 2020 22:14:43 +0900</pubDate>
       
-      <guid>https://example.com/blog/2020/05/moved/</guid>
+      <guid>https://masawo.github.io/blog/2020/05/moved/</guid>
       <description>Octopress -&amp;gt; Hugo への移行を行いました。 (作業詳細などを書く予定)</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://example.com/about/</link>
+      <link>https://masawo.github.io/about/</link>
       <pubDate>Wed, 20 May 2020 21:54:02 +0900</pubDate>
       
-      <guid>https://example.com/about/</guid>
+      <guid>https://masawo.github.io/about/</guid>
       <description>wologは masawo による雑記です。 以前はハイパー日記システムを使って日記を書いていましたが、 2003年の初夏あたりに、Movable Typeの存</description>
     </item>
     
     <item>
       <title>deliciousからpinboardに完全移籍</title>
-      <link>https://example.com/blog/2014/05/from-delicious-to-pinboard/</link>
+      <link>https://masawo.github.io/blog/2014/05/from-delicious-to-pinboard/</link>
       <pubDate>Sat, 17 May 2014 02:40:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2014/05/from-delicious-to-pinboard/</guid>
+      <guid>https://masawo.github.io/blog/2014/05/from-delicious-to-pinboard/</guid>
       <description>前回のエントリで書いていた通り、ブックマークはdeliciousを母艦にして過ごしてきました。 delicious が4月からなんかおかしい 先月のどこだったかあ</description>
     </item>
     
     <item>
       <title>自分のブックマークライフについて</title>
-      <link>https://example.com/blog/2014/02/my-bookmark-life/</link>
+      <link>https://masawo.github.io/blog/2014/02/my-bookmark-life/</link>
       <pubDate>Fri, 28 Feb 2014 22:31:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2014/02/my-bookmark-life/</guid>
+      <guid>https://masawo.github.io/blog/2014/02/my-bookmark-life/</guid>
       <description>何年か前からソーシャルブックマークサービス(deliciousやはてなブックマークのような)を使って、気になったサイトのブックマークを日頃つ</description>
     </item>
     
     <item>
       <title>2013 season</title>
-      <link>https://example.com/blog/2013/12/2013-season/</link>
+      <link>https://masawo.github.io/blog/2013/12/2013-season/</link>
       <pubDate>Tue, 31 Dec 2013 19:01:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2013/12/2013-season/</guid>
+      <guid>https://masawo.github.io/blog/2013/12/2013-season/</guid>
       <description>&lt;h2 id=&#34;今年買ったガジェット&#34;&gt;今年買ったガジェット&lt;/h2&gt;
 &lt;p&gt;iPhone5S, Nexus5&lt;/p&gt;
 &lt;iframe src=&#34;//instagram.com/p/ilQMOGCSrR/embed/&#34; width=&#34;612&#34; height=&#34;710&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; allowtransparency=&#34;true&#34;&gt;&lt;/iframe&gt;
@@ -63,10 +63,10 @@
     
     <item>
       <title>iPhone4s→iPhone5S こうかは ばつぐんだ!</title>
-      <link>https://example.com/blog/2013/11/i-bought-iphone5s/</link>
+      <link>https://masawo.github.io/blog/2013/11/i-bought-iphone5s/</link>
       <pubDate>Tue, 19 Nov 2013 22:55:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2013/11/i-bought-iphone5s/</guid>
+      <guid>https://masawo.github.io/blog/2013/11/i-bought-iphone5s/</guid>
       <description>&lt;p&gt;auからiPhone5Sがようやく届いたのは10/25のこと。&lt;br&gt;
 使って1ヶ月ぐらい経ち、すっかりなじんでいます。&lt;/p&gt;
 &lt;iframe src=&#34;//instagram.com/p/f2mp6YiSgZ/embed/&#34; width=&#34;612&#34; height=&#34;710&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; allowtransparency=&#34;true&#34;&gt;&lt;/iframe&gt;</description>
@@ -74,39 +74,39 @@
     
     <item>
       <title>iPhone5Sに向けて,ケースやスタンド探し</title>
-      <link>https://example.com/blog/2013/10/iphone-5s-accessories/</link>
+      <link>https://masawo.github.io/blog/2013/10/iphone-5s-accessories/</link>
       <pubDate>Thu, 10 Oct 2013 22:37:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2013/10/iphone-5s-accessories/</guid>
+      <guid>https://masawo.github.io/blog/2013/10/iphone-5s-accessories/</guid>
       <description>&lt;p&gt;iPhone5Sを予約して10日ほど経ちますが、まだ何も連絡が来ず。。&lt;/p&gt;
 &lt;p&gt;待っている間に、ケースとスタンドを買っておこうと思いました。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>iPhone5S(au)を予約した</title>
-      <link>https://example.com/blog/2013/09/i-ordered-iphone5s-au/</link>
+      <link>https://masawo.github.io/blog/2013/09/i-ordered-iphone5s-au/</link>
       <pubDate>Mon, 30 Sep 2013 22:10:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2013/09/i-ordered-iphone5s-au/</guid>
+      <guid>https://masawo.github.io/blog/2013/09/i-ordered-iphone5s-au/</guid>
       <description>&lt;p&gt;auのオンラインショップで予約してしまいました。シルバー32GB.&lt;br&gt;
 (カラーはグレー以外が希望で、お店行脚するのが面倒なのと、お店で勝手に月額アプリ契約されるのが面倒なので直営オンラインショップにしました)&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>自宅サーバがread-onlyになってた&amp;修復</title>
-      <link>https://example.com/blog/2013/08/ubuntu-server-hdd-read-only/</link>
+      <link>https://masawo.github.io/blog/2013/08/ubuntu-server-hdd-read-only/</link>
       <pubDate>Sun, 11 Aug 2013 21:19:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2013/08/ubuntu-server-hdd-read-only/</guid>
+      <guid>https://masawo.github.io/blog/2013/08/ubuntu-server-hdd-read-only/</guid>
       <description>自宅サーバのUbuntuにちょっと久しぶりにログインしたら、read-only file system などという文言が。 数日前からHDDの片方が怪しくなって、R</description>
     </item>
     
     <item>
       <title>WordpressからOctopressに移行</title>
-      <link>https://example.com/blog/2013/07/from-wordpress-to-octopress/</link>
+      <link>https://masawo.github.io/blog/2013/07/from-wordpress-to-octopress/</link>
       <pubDate>Wed, 31 Jul 2013 22:03:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2013/07/from-wordpress-to-octopress/</guid>
+      <guid>https://masawo.github.io/blog/2013/07/from-wordpress-to-octopress/</guid>
       <description>&lt;p&gt;7月の始めごろに、このブログを Wordpress から Octopress に移行していました。&lt;/p&gt;
 &lt;p&gt;移行した理由は主に&lt;/p&gt;
 &lt;ul&gt;

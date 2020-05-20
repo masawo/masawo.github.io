@@ -2,67 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>日々 on wolog</title>
-    <link>https://example.com/tags/%E6%97%A5%E3%80%85/</link>
+    <link>https://masawo.github.io/tags/%E6%97%A5%E3%80%85/</link>
     <description>Recent content in 日々 on wolog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Fri, 12 Aug 2011 03:00:00 +0900</lastBuildDate>
     
-	<atom:link href="https://example.com/tags/%E6%97%A5%E3%80%85/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://masawo.github.io/tags/%E6%97%A5%E3%80%85/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>近況</title>
-      <link>https://example.com/blog/2011/08/recent/</link>
+      <link>https://masawo.github.io/blog/2011/08/recent/</link>
       <pubDate>Fri, 12 Aug 2011 03:00:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2011/08/recent/</guid>
+      <guid>https://masawo.github.io/blog/2011/08/recent/</guid>
       <description>今月に入ってから、ゆっくりしています。 詳細は別の日記に書いたとおりです。 どこか旅行とかしたいなと思ったりしますが、今は夏休みシーズンだからど</description>
     </item>
     
     <item>
       <title>Action Stream をはじめてみた</title>
-      <link>https://example.com/blog/2008/07/action_stream/</link>
+      <link>https://masawo.github.io/blog/2008/07/action_stream/</link>
       <pubDate>Tue, 01 Jul 2008 03:00:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2008/07/action_stream/</guid>
+      <guid>https://masawo.github.io/blog/2008/07/action_stream/</guid>
       <description>ときどきブログで見かける Action Stream というものを、ここでもやってみました。 以下を参考にしながら。 Action Stream をなんとなく入れてみました - メモログ plugin のアーカイ</description>
     </item>
     
     <item>
       <title>日本×中国</title>
-      <link>https://example.com/blog/2008/02/post_99/</link>
+      <link>https://masawo.github.io/blog/2008/02/post_99/</link>
       <pubDate>Thu, 21 Feb 2008 03:00:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2008/02/post_99/</guid>
+      <guid>https://masawo.github.io/blog/2008/02/post_99/</guid>
       <description>さっき録画を見終えました。 いやはや、見ていてちょっと違った意味でヒヤヒヤした試合だったな… サッカー以外の何かが入ってきちゃうと、試合になんな</description>
     </item>
     
     <item>
       <title>自宅PCの不調を検証</title>
-      <link>https://example.com/blog/2007/12/pc_3/</link>
+      <link>https://masawo.github.io/blog/2007/12/pc_3/</link>
       <pubDate>Sun, 30 Dec 2007 03:00:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2007/12/pc_3/</guid>
+      <guid>https://masawo.github.io/blog/2007/12/pc_3/</guid>
       <description>自宅の自作PCで、PSP向けの動画を携帯動画変換君でエンコードしていると、高確率でブルースクリーンやフリーズが発生してしまうという罠に最近気</description>
     </item>
     
     <item>
       <title>Mac不調→回復</title>
-      <link>https://example.com/blog/2007/11/mac/</link>
+      <link>https://masawo.github.io/blog/2007/11/mac/</link>
       <pubDate>Tue, 20 Nov 2007 03:00:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2007/11/mac/</guid>
+      <guid>https://masawo.github.io/blog/2007/11/mac/</guid>
       <description>今朝にMacbook Pro を開いたら、なぜかspotlightが使えなかったり、アプリのメニューをちょっと触っただけでマウスポインタが虹になって</description>
     </item>
     
     <item>
       <title>オルトアール総合雑談中心が７月で終了</title>
-      <link>https://example.com/blog/2007/07/post_96/</link>
+      <link>https://masawo.github.io/blog/2007/07/post_96/</link>
       <pubDate>Mon, 30 Jul 2007 03:00:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2007/07/post_96/</guid>
+      <guid>https://masawo.github.io/blog/2007/07/post_96/</guid>
       <description>&lt;p&gt;&lt;a title=&#34;ML1--7年間ありがとうございました&#34; href=&#34;http://www.alt-r.com/di/ml-2-1771.html&#34;&gt;ML1&amp;ndash;7年間ありがとうございました&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;ドメインがハイジャックされてしまったために終了するそうです。&lt;/p&gt;
 &lt;p&gt;開始当初から知る身としては、さびしいですな。&lt;/p&gt;</description>
@@ -70,10 +70,10 @@
     
     <item>
       <title>PerlのモジュールをPHP4のクラスに置き換える際の勘所</title>
-      <link>https://example.com/blog/2007/06/perlphp4/</link>
+      <link>https://masawo.github.io/blog/2007/06/perlphp4/</link>
       <pubDate>Thu, 28 Jun 2007 03:00:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2007/06/perlphp4/</guid>
+      <guid>https://masawo.github.io/blog/2007/06/perlphp4/</guid>
       <description>&lt;p&gt;表題のことを実際にやってみて、つまづいたりここがポイントかもと感じた点を挙げてみます。&lt;/p&gt;
 &lt;p&gt;試行錯誤していて思ったことなので、間違った点もあるかもしれません。&lt;/p&gt;
 &lt;p&gt;・PHPにはPerlでいう、サブルーチンリファレンスという概念がない。&lt;/p&gt;
@@ -113,10 +113,10 @@ ini_set() なり php.ini なり .htaccess なりで設定しておくのが吉�
     
     <item>
       <title>IT戦士の本</title>
-      <link>https://example.com/blog/2007/06/it/</link>
+      <link>https://masawo.github.io/blog/2007/06/it/</link>
       <pubDate>Wed, 13 Jun 2007 03:00:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2007/06/it/</guid>
+      <guid>https://masawo.github.io/blog/2007/06/it/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.itmedia.co.jp/&#34;&gt;ITMedia&lt;/a&gt;でおなじみの、IT戦士こと岡田記者の本「ネットで人生、変わりましたか？」の発売を知り、さっそく先週に購入。少しずつ読んで今日読了しました。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4797337370/masawo-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://ec1.images-amazon.com/images/I/11kaZufjZuL.jpg&#34; alt=&#34;ネットで人生、変わりましたか?&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a title=&#34;IT戦士　岡田有花リンク集&#34; href=&#34;http://www8.plala.or.jp/garden/note/it.html&#34;&gt;IT戦士　岡田有花リンク集&lt;/a&gt;&lt;/p&gt;</description>
@@ -124,19 +124,19 @@ ini_set() なり php.ini なり .htaccess なりで設定しておくのが吉�
     
     <item>
       <title>HDDレコーダー故障</title>
-      <link>https://example.com/blog/2007/06/hdd/</link>
+      <link>https://masawo.github.io/blog/2007/06/hdd/</link>
       <pubDate>Sun, 10 Jun 2007 03:00:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2007/06/hdd/</guid>
+      <guid>https://masawo.github.io/blog/2007/06/hdd/</guid>
       <description>うちのHDDレコーダー RD-XS57 でDVDへのダビングを行っていたら、途中でエラーの表示が出て操作不能な状態に。 電源長押しで操作自体は元に戻ったものの</description>
     </item>
     
     <item>
       <title>旧メールアドレス解約</title>
-      <link>https://example.com/blog/2007/06/post_93/</link>
+      <link>https://masawo.github.io/blog/2007/06/post_93/</link>
       <pubDate>Sat, 09 Jun 2007 03:00:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2007/06/post_93/</guid>
+      <guid>https://masawo.github.io/blog/2007/06/post_93/</guid>
       <description>&lt;p&gt;ネットをはじめて以来メインで使ってきたメールアドレス(stojko at po.sakura.ne.jp)を、7月いっぱいで解約します。&lt;/p&gt;
 &lt;p&gt;既に今年に入ってからメインのアドレスを別のものにし、公開用にはgmailのアカウントを使ってます。&lt;/p&gt;
 &lt;p&gt;各Webサービスでのアドレス変更手続きもあらかた終えました。&lt;/p&gt;

@@ -17,7 +17,7 @@
 <meta itemprop="keywords" content="日々," /><meta property="og:title" content="Firefox 1.5の定番拡張(extension)リンク集" />
 <meta property="og:description" content="家のPCに、Firefox1.5をイチからインストールして設定した。先日会社環境で入れてた拡張をもとにしたけれど、その拡張たちのありかと軽い説明を書いてみる。個人的なもの(del.icio.usとか終盤のとか)を除けばどれも使える拡張だと思うので、参考になれば。Tab Mix Plushttp://tmp.gary.elixant.com/タブ生活充実系。&hellip;なぜか「前回のセッションを復元」がうまく動かなかった。以下の0.3Betaを代わりに使ってみたらできた（設定画面が少し変わっている）。http://tmp.garyr.net/beta%200.3/Copy URL&#43;http://copyurlplus.mozdev.org/installation.html以下のサイトを参考にして、user.jsに追記するとコピペ生活が大変充実。http://www.plant4.co.uk/?itemid=80自分はこんな感じ&darr; あ、シャープのある行はもちろん省きますよ------#ページのタイトルのみペーストuser_pref(&#39;copyurlplus.menus.1.label&#39;,&#39;Copy Title&#39;);user_pref(&#39;copyurlplus.menus.1.copy&#39;,&#39;%TITLE%&#39;);#URLにリンク用タグを付けてペーストuser_pref(&#39;copyurlplus.menus.2.label&#39;,&#39;Create Link&#39;);user_pref(&#39;copyurlplus.menus.2.copy&#39;,&#39;&lt;a href=&quot;%URL%&quot; title=&quot;%TITLE%&quot;&gt;%TITLE%&lt;/a&gt;&#39;);#選択中のテキストをblockquoteタグを付けてペーストuser_pref(&#39;copyurlplus.menus.3.label&#39;,&#39;Create Blockquote&#39;);user_pref(&#39;copyurlplus.menus.3.copy&#39;,&#39;&lt;blockquote cite=&quot;%URL%&quot;&gt;\n&lt;p&gt;%SEL%&lt;/p&gt;\n&lt;/blockquote&gt;&#39;);------All-in-One Gestureshttps://addons.mozilla.org/extensions/moreinfo.php?id=12これなしでは不便になりつつある今日この頃。（右クリック&#43;左ドラッグとかがもはや癖になってる）Gmail Notifierhttp://www.nexgenmedia.net/extensions/Gmailのメールが着弾するとお知らせしてくれる※Y!検索で普通に検索すると、本家謹製のツールバー(Win/Mac)がヒットする。Web Developer 日本語版http://www.infoaxia.com/tools/webdeveloper/Webデザイン時には必携LiveLineshttp://heygom.com/extensions/お好きなRSSリーダーへフィードを追加foXposehttps://addons.mozilla.org/extensions/moreinfo.php?application=firefox&amp;id=1457タブ一覧のサムネイルを表示。イイ！（土日にはてなブックマークで知った）del.icio.us toolbarhttp://del.icio.us/help/firefox/extensiondel.icio.us 謹製の拡張。まあbookmarkletだけで事足りてたけど一応入れてみたtargetIconhttp://www.masamunet.com/firefox_extensions/targeticon/別ウインドウで開くリンクやPDFリンクなどが一目でわかるMeasureIthttp://www.kevinfreitas.net/extensions/measureit/ピクセルサイズをさくっと計れる定規IE tabhttps://addons.mozilla.org/extensions/moreinfo.php?id=1419&amp;application=firefoxちょっとIEで開きたくなったときにはこれbbs2chreaderhttps://addons.mozilla.org/extensions/moreinfo.php?id=1560（あまり試してない）2ch閲覧支援Foxage2chhttp://amb.vis.ne.jp/mozilla/foxage2ch/（あまり試してない）2chのお気に入りスレッド管理＆更新チェック。bbs2chreaderとも連携" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://example.com/blog/2005/12/firefox_15extension/" />
+<meta property="og:url" content="https://masawo.github.io/blog/2005/12/firefox_15extension/" />
 <meta property="article:published_time" content="2005-12-05T03:00:00+09:00" />
 <meta property="article:modified_time" content="2005-12-05T03:00:00+09:00" />
 <meta name="twitter:card" content="summary"/>
@@ -31,7 +31,7 @@
 	<link rel="shortcut icon" href="/favicon.ico">
 
 	<title>Firefox 1.5の定番拡張(extension)リンク集</title>
-	<link rel="stylesheet" href="https://example.com/css/style.min.414ce1f9c890e5ea78db294d1fe07417fdb3f4c55a185e3137e9ed3185eadb52.css" integrity="sha256-QUzh+ciQ5ep42ylNH+B0F/2z9MVaGF4xN+ntMYXq21I=">
+	<link rel="stylesheet" href="https://masawo.github.io/css/style.min.414ce1f9c890e5ea78db294d1fe07417fdb3f4c55a185e3137e9ed3185eadb52.css" integrity="sha256-QUzh+ciQ5ep42ylNH+B0F/2z9MVaGF4xN+ntMYXq21I=">
 	
 </head>
 
@@ -41,11 +41,11 @@
 		<div class="hdr-wrapper section-inner">
 			<div class="hdr-left">
 				<div class="site-branding">
-					<a href="https://example.com">wolog</a>
+					<a href="https://masawo.github.io">wolog</a>
 				</div>
 				<nav class="site-nav hide-in-mobile">
-					<a href="https://example.com/posts/">Posts</a>
-					<a href="https://example.com/about/">About</a>
+					<a href="https://masawo.github.io/posts/">Posts</a>
+					<a href="https://masawo.github.io/about/">About</a>
 				</nav>
 			</div>
 			<div class="hdr-right hdr-icons">
@@ -55,8 +55,8 @@
 	</header>
 	<div id="mobile-menu" class="animated fast">
 		<ul>
-			<li><a href="https://example.com/posts/">Posts</a></li>
-			<li><a href="https://example.com/about/">About</a></li>
+			<li><a href="https://masawo.github.io/posts/">Posts</a></li>
+			<li><a href="https://masawo.github.io/about/">About</a></li>
 		</ul>
 	</div>
 
@@ -70,14 +70,14 @@
 	</main>
 
 	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
-		<p>&copy; 2020 <a href="https://example.com">Masao S</a> &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></p>
+		<p>&copy; 2020 <a href="https://masawo.github.io">Masao S</a> &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></p>
 		<p>
-			Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; Theme <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="https://example.com/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+			Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; Theme <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="https://masawo.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
 		</p>
 	</footer>
 
 
-	<script src="https://example.com/js/main.min.8f39f24808e9d0a9b02da58c2d2838da859dc0b7bdfadbdb1883aae8b6adacfe.js" integrity="sha256-jznySAjp0KmwLaWMLSg42oWdwLe9+tvbGIOq6LatrP4="></script>
+	<script src="https://masawo.github.io/js/main.min.8f39f24808e9d0a9b02da58c2d2838da859dc0b7bdfadbdb1883aae8b6adacfe.js" integrity="sha256-jznySAjp0KmwLaWMLSg42oWdwLe9+tvbGIOq6LatrP4="></script>
 
 </body>
 

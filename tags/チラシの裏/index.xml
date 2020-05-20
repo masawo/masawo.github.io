@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>チラシの裏 on wolog</title>
-    <link>https://example.com/tags/%E3%83%81%E3%83%A9%E3%82%B7%E3%81%AE%E8%A3%8F/</link>
+    <link>https://masawo.github.io/tags/%E3%83%81%E3%83%A9%E3%82%B7%E3%81%AE%E8%A3%8F/</link>
     <description>Recent content in チラシの裏 on wolog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Sun, 28 Oct 2012 03:00:00 +0900</lastBuildDate>
     
-	<atom:link href="https://example.com/tags/%E3%83%81%E3%83%A9%E3%82%B7%E3%81%AE%E8%A3%8F/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://masawo.github.io/tags/%E3%83%81%E3%83%A9%E3%82%B7%E3%81%AE%E8%A3%8F/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>[iPhone]APNの設定が揮発してて困った1日</title>
-      <link>https://example.com/blog/2012/10/iphone-docomo-apn-setting-forget/</link>
+      <link>https://masawo.github.io/blog/2012/10/iphone-docomo-apn-setting-forget/</link>
       <pubDate>Sun, 28 Oct 2012 03:00:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2012/10/iphone-docomo-apn-setting-forget/</guid>
+      <guid>https://masawo.github.io/blog/2012/10/iphone-docomo-apn-setting-forget/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.sim-free-iphone.com/home/initialize/docomoconnect&#34;&gt;ドコモ用のモバイルデータ通信設定は？ - docomoでiPhoneを使おう！&lt;/a&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;    XIおよびFOMAパケホーダイの場合
     APN:mopera.netまたはopen.mopera.net
@@ -31,12 +31,12 @@
     
     <item>
       <title>ガラケー復活。計画完了</title>
-      <link>https://example.com/blog/2012/07/feature-phone-again/</link>
+      <link>https://masawo.github.io/blog/2012/07/feature-phone-again/</link>
       <pubDate>Tue, 17 Jul 2012 03:00:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2012/07/feature-phone-again/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://example.com/blog/2012/07/galaxy-note-tether.html&#34;&gt;先日のエントリ&lt;/a&gt;で書いた続きです。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://example.com/images/uploads/2012/07/2012-07-17-22.04.33.jpg&#34;&gt;&lt;img src=&#34;https://example.com/images/uploads/2012/07/2012-07-17-22.04.33-225x300.jpg&#34; alt=&#34;&#34; title=&#34;2012-07-17 22.04.33&#34; width=&#34;225&#34; height=&#34;300&#34; class=&#34;alignnone size-medium wp-image-464&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>https://masawo.github.io/blog/2012/07/feature-phone-again/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://masawo.github.io/blog/2012/07/galaxy-note-tether.html&#34;&gt;先日のエントリ&lt;/a&gt;で書いた続きです。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://masawo.github.io/images/uploads/2012/07/2012-07-17-22.04.33.jpg&#34;&gt;&lt;img src=&#34;https://masawo.github.io/images/uploads/2012/07/2012-07-17-22.04.33-225x300.jpg&#34; alt=&#34;&#34; title=&#34;2012-07-17 22.04.33&#34; width=&#34;225&#34; height=&#34;300&#34; class=&#34;alignnone size-medium wp-image-464&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;iPhone4の電話番号をdocomoにMNPする手続きを、16日に行ってきました。&lt;/p&gt;
 &lt;p&gt;Webで良さそうな案件を探して、MNP一括0円で少し前の質の良さそうなフィーチャフォンを契約できるお店が近所にあったので、そこで契約してきました。&lt;/p&gt;
 &lt;p&gt;で持ち帰ってきたあと、新品の携帯を使うのがもったいなく感じたので、すぐに電池パックを抜いてSIMカードを抜きました。&lt;/p&gt;
@@ -45,11 +45,11 @@
     
     <item>
       <title>GALAXY Note でテザリングを試した</title>
-      <link>https://example.com/blog/2012/07/galaxy-note-tether/</link>
+      <link>https://masawo.github.io/blog/2012/07/galaxy-note-tether/</link>
       <pubDate>Sun, 01 Jul 2012 03:00:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2012/07/galaxy-note-tether/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://example.com/blog/2012/06/galaxy-note-sc-05d-and-mobile-plan.html&#34;&gt;先日入手したGALAXY Note&lt;/a&gt;の契約を7月からデータ定額プランにするため、一昨日 6/29にdocomoに電話して、Noteの契約をデータプランに変えて『Xiデータプラン2にねん』にしてもらい、かつ『Xiデータプランフラットにねん』に7/1から切り変える予約ができるとのことなのでしてもらいました。&lt;/p&gt;
+      <guid>https://masawo.github.io/blog/2012/07/galaxy-note-tether/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://masawo.github.io/blog/2012/06/galaxy-note-sc-05d-and-mobile-plan.html&#34;&gt;先日入手したGALAXY Note&lt;/a&gt;の契約を7月からデータ定額プランにするため、一昨日 6/29にdocomoに電話して、Noteの契約をデータプランに変えて『Xiデータプラン2にねん』にしてもらい、かつ『Xiデータプランフラットにねん』に7/1から切り変える予約ができるとのことなのでしてもらいました。&lt;/p&gt;
 &lt;p&gt;そのときに「他に機器は持ってますか」と聞かれて「wifiルータ L-09C を持ってます」と答えたので、「それで使うならspモードを廃止して mopera U を契約しときます」と言われ、その通りにしてもらっていました。&lt;/p&gt;
 &lt;p&gt;それならNoteでもwifiルータでも使えるのかなと思い。&lt;/p&gt;
 &lt;p&gt;で月が7月に変わり、フラット契約解禁ということでさっそくOFFにしていた3G/LTE接続の封印を解き、まずはテザリングを試そうとしました。&lt;/p&gt;
@@ -58,26 +58,26 @@
 &lt;p&gt;&lt;a href=&#34;http://www.nttdocomo.co.jp/service/func_tool/tethering/notice/index.html&#34;&gt;テザリングのご利用には、spモードのご契約が必要です。&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;とのことでした。なるほど。&lt;/p&gt;
 &lt;p&gt;てことで、spモードをmydocomoから再び契約し、APNをspモードのものに変更して試したらテザリングできるようになりました。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://example.com/images/uploads/2012/07/export_01.png&#34;&gt;&lt;img src=&#34;https://example.com/images/uploads/2012/07/export_01-187x300.png&#34; alt=&#34;&#34; title=&#34;export_01&#34; width=&#34;187&#34; height=&#34;300&#34; class=&#34;alignnone size-medium wp-image-458&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://masawo.github.io/images/uploads/2012/07/export_01.png&#34;&gt;&lt;img src=&#34;https://masawo.github.io/images/uploads/2012/07/export_01-187x300.png&#34; alt=&#34;&#34; title=&#34;export_01&#34; width=&#34;187&#34; height=&#34;300&#34; class=&#34;alignnone size-medium wp-image-458&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;※↑の画面が暗いのは、画面がまぶしいので&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.haxor&#34;&gt;Screen Filter&lt;/a&gt;というアプリを入れて調整しているためです。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>IIJmioが届いたので、動かした</title>
-      <link>https://example.com/blog/2012/05/iijmio-arrived/</link>
+      <link>https://masawo.github.io/blog/2012/05/iijmio-arrived/</link>
       <pubDate>Fri, 25 May 2012 03:00:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2012/05/iijmio-arrived/</guid>
+      <guid>https://masawo.github.io/blog/2012/05/iijmio-arrived/</guid>
       <description>mioタンが届いた instagr.am/p/K_SJN8iStX/ &amp;mdash; masawoさん (@masawo) 5月 24, 2012 IIJmio のSIMカードが届いたので、手持ちのGalaxy Sに挿して動作確認してみました。 Galaxy S での設</description>
     </item>
     
     <item>
       <title>Facebook関連ウィジェットを出さなくする「Facebook Disconnect」</title>
-      <link>https://example.com/blog/2012/05/facebook-disconnect-chrome/</link>
+      <link>https://masawo.github.io/blog/2012/05/facebook-disconnect-chrome/</link>
       <pubDate>Wed, 23 May 2012 03:00:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2012/05/facebook-disconnect-chrome/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://example.com/images/uploads/2012/05/ab6af26a8ada8a7c3c30d5d3f96886f3.jpg&#34;&gt;&lt;img src=&#34;https://example.com/images/uploads/2012/05/ab6af26a8ada8a7c3c30d5d3f96886f3-300x187.jpg&#34; alt=&#34;&#34; title=&#34;Chrome ウェブストア - Facebook Disconnect&#34; width=&#34;300&#34; height=&#34;187&#34; class=&#34;alignnone size-medium wp-image-439&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>https://masawo.github.io/blog/2012/05/facebook-disconnect-chrome/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://masawo.github.io/images/uploads/2012/05/ab6af26a8ada8a7c3c30d5d3f96886f3.jpg&#34;&gt;&lt;img src=&#34;https://masawo.github.io/images/uploads/2012/05/ab6af26a8ada8a7c3c30d5d3f96886f3-300x187.jpg&#34; alt=&#34;&#34; title=&#34;Chrome ウェブストア - Facebook Disconnect&#34; width=&#34;300&#34; height=&#34;187&#34; class=&#34;alignnone size-medium wp-image-439&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;自分の場合ごくまれに、ネットサーフィンをしているとき「Facebookソーシャルプラグイン」で出てくる顔画像が&lt;strong&gt;無性にウザイ&lt;/strong&gt;と感じることがあります。&lt;/p&gt;
 &lt;p&gt;消す方法はないか探してみたら, chrome の拡張機能にありました。
 &lt;a href=&#34;https://chrome.google.com/webstore/detail/ejpepffjfmamnambagiibghpglaidiec&#34;&gt;Chrome ウェブストア - Facebook Disconnect&lt;/a&gt;&lt;/p&gt;
@@ -90,10 +90,10 @@
     
     <item>
       <title>IIJmioの契約検討</title>
-      <link>https://example.com/blog/2012/05/iijmio/</link>
+      <link>https://masawo.github.io/blog/2012/05/iijmio/</link>
       <pubDate>Mon, 21 May 2012 03:00:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2012/05/iijmio/</guid>
+      <guid>https://masawo.github.io/blog/2012/05/iijmio/</guid>
       <description>&lt;p&gt;WiMAXよりもXiのほうが便利かなと思い、モバイルルータ L-09C を購入したのが4月頭のこと。&lt;/p&gt;
 &lt;p&gt;（ドコモオンラインショップで3,150円で購入。今思えば、もっと条件の良いお店を探せば良かった）&lt;/p&gt;
 &lt;p&gt;で 4月から外出時に使って、確かにWiMAXよりエリアが広くなって速度も出て便利にはなったんですが、月額料金の明細を見ると、やっぱりちょっと高いかなと思い始めました。&lt;/p&gt;</description>
@@ -101,23 +101,23 @@
     
     <item>
       <title>ガラケー解約予定</title>
-      <link>https://example.com/blog/2012/05/feature-phone-will-leave/</link>
+      <link>https://masawo.github.io/blog/2012/05/feature-phone-will-leave/</link>
       <pubDate>Wed, 02 May 2012 03:00:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2012/05/feature-phone-will-leave/</guid>
+      <guid>https://masawo.github.io/blog/2012/05/feature-phone-will-leave/</guid>
       <description>2年前に契約したフィーチャーフォン（ガラケー）ですが、半年ぐらい前から使い道が無くなったので、電源を落として塩漬け運用していました。（ほとん</description>
     </item>
     
     <item>
       <title>HandBrakeを使ってDVDをチャプターごとに動画変換する</title>
-      <link>https://example.com/blog/2012/03/handbrake-dvd-chapter-convert/</link>
+      <link>https://masawo.github.io/blog/2012/03/handbrake-dvd-chapter-convert/</link>
       <pubDate>Sat, 24 Mar 2012 03:00:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2012/03/handbrake-dvd-chapter-convert/</guid>
+      <guid>https://masawo.github.io/blog/2012/03/handbrake-dvd-chapter-convert/</guid>
       <description>&lt;p&gt;Mr.ChildrenのライブDVDを動画変換するために、表題の作業をMac版で行ったのでそのメモです。&lt;/p&gt;
 &lt;p&gt;(Windows版でもたぶん同様なのではとおもいます)&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://handbrake.fr/&#34; title=&#34;HandBrake&#34; target=&#34;_blank&#34;&gt;HandBrake&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://example.com/images/uploads/2012/03/d0befdced14949441a76f8528ddbb9c2.jpg&#34;&gt;&lt;img src=&#34;https://example.com/images/uploads/2012/03/d0befdced14949441a76f8528ddbb9c2.jpg&#34; alt=&#34;&#34; title=&#34;スクリーンショット 2012-03-24 16.34.58&#34; width=&#34;987&#34; height=&#34;666&#34; class=&#34;alignnone size-full wp-image-429&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://masawo.github.io/images/uploads/2012/03/d0befdced14949441a76f8528ddbb9c2.jpg&#34;&gt;&lt;img src=&#34;https://masawo.github.io/images/uploads/2012/03/d0befdced14949441a76f8528ddbb9c2.jpg&#34; alt=&#34;&#34; title=&#34;スクリーンショット 2012-03-24 16.34.58&#34; width=&#34;987&#34; height=&#34;666&#34; class=&#34;alignnone size-full wp-image-429&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;    1. ソースのファイルを指定（isoファイルや、マウントしたDVDとか）
     2. 画面の上のほうにチャプターが選べるプルダウンがあるので、そこを見る。
     連番になっていると思うので、まず1を2つ選択。（これで、チャプター1を範囲指定したことになる）
@@ -127,26 +127,26 @@
     6. キューに追加した処理を開始する。英語版であれば &amp;quot;Start&amp;quot;ボタン
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;開始するとこんな表示に。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://example.com/images/uploads/2012/03/f9c2249cbdc88303332f164438bcc624.jpg&#34;&gt;&lt;img src=&#34;https://example.com/images/uploads/2012/03/f9c2249cbdc88303332f164438bcc624.jpg&#34; alt=&#34;&#34; title=&#34;スクリーンショット 2012-03-24 16.35.25&#34; width=&#34;701&#34; height=&#34;624&#34; class=&#34;alignnone size-full wp-image-430&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://masawo.github.io/images/uploads/2012/03/f9c2249cbdc88303332f164438bcc624.jpg&#34;&gt;&lt;img src=&#34;https://masawo.github.io/images/uploads/2012/03/f9c2249cbdc88303332f164438bcc624.jpg&#34; alt=&#34;&#34; title=&#34;スクリーンショット 2012-03-24 16.35.25&#34; width=&#34;701&#34; height=&#34;624&#34; class=&#34;alignnone size-full wp-image-430&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;これでmp4ファイルを生成しました。H.264で生成したので、Macはもちろん,iPhoneやiPadでもiTunesにアップロードして見られます。&lt;/p&gt;
 &lt;p&gt;とやっているうちに、ああ &lt;a href=&#34;http://code.google.com/p/ps3mediaserver/&#34;&gt;ps3mediaserver&lt;/a&gt; とか使ってDLNA経由で再生するという手もあるなあ、と思いました。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>ドラゴンクエスト展に行ってきた</title>
-      <link>https://example.com/blog/2011/12/dq25ten/</link>
+      <link>https://masawo.github.io/blog/2011/12/dq25ten/</link>
       <pubDate>Fri, 02 Dec 2011 03:00:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2011/12/dq25ten/</guid>
+      <guid>https://masawo.github.io/blog/2011/12/dq25ten/</guid>
       <description>誕生25周年記念 ドラゴンクエスト展 とあるブログで行ってきたというのを見かけて、会期が12/4までともうすぐ終わりだったので行ってきました。 歴</description>
     </item>
     
     <item>
       <title>ワイヤレスヘッドセットの電池をeneloopに交換した</title>
-      <link>https://example.com/blog/2011/11/wireless-headset-battery-change-eneloop/</link>
+      <link>https://masawo.github.io/blog/2011/11/wireless-headset-battery-change-eneloop/</link>
       <pubDate>Wed, 23 Nov 2011 03:00:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2011/11/wireless-headset-battery-change-eneloop/</guid>
+      <guid>https://masawo.github.io/blog/2011/11/wireless-headset-battery-change-eneloop/</guid>
       <description>家でたまにしか使わないワイヤレスヘッドセット「MDR-DS6000」を久々に使おうとして充電しようとしたら、chargeランプが点滅。 説明書</description>
     </item>
     

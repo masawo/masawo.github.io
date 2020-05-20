@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RSS Feed on wolog</title>
-    <link>https://example.com/tags/rss-feed/</link>
+    <link>https://masawo.github.io/tags/rss-feed/</link>
     <description>Recent content in RSS Feed on wolog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Fri, 06 Mar 2009 03:00:00 +0900</lastBuildDate>
     
-	<atom:link href="https://example.com/tags/rss-feed/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://masawo.github.io/tags/rss-feed/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>大宮公式サイトがリニューアルされてた(野良RSS終了)</title>
-      <link>https://example.com/blog/2009/03/rss_4/</link>
+      <link>https://masawo.github.io/blog/2009/03/rss_4/</link>
       <pubDate>Fri, 06 Mar 2009 03:00:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2009/03/rss_4/</guid>
+      <guid>https://masawo.github.io/blog/2009/03/rss_4/</guid>
       <description>大宮アルディージャ公式サイトが最近リニューアルされたようです。（今日しばらくぶりに見てみたら変わっててびっくり。） 旧サイトにはヘッドラインの</description>
     </item>
     

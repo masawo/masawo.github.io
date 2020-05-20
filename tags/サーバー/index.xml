@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>サーバー on wolog</title>
-    <link>https://example.com/tags/%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC/</link>
+    <link>https://masawo.github.io/tags/%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC/</link>
     <description>Recent content in サーバー on wolog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Thu, 01 Sep 2011 03:00:00 +0900</lastBuildDate>
     
-	<atom:link href="https://example.com/tags/%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://masawo.github.io/tags/%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>自宅サーバのダイナミックDNSを変更 everydns-&gt;mydns.jp</title>
-      <link>https://example.com/blog/2011/09/dynamic-dns-change-everydns-mydns-jp/</link>
+      <link>https://masawo.github.io/blog/2011/09/dynamic-dns-change-everydns-mydns-jp/</link>
       <pubDate>Thu, 01 Sep 2011 03:00:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2011/09/dynamic-dns-change-everydns-mydns-jp/</guid>
+      <guid>https://masawo.github.io/blog/2011/09/dynamic-dns-change-everydns-mydns-jp/</guid>
       <description>自宅サーバを公開するためにダイナミックDNSサービスとして everydns.net を利用していたんですが、結構前にdyndnsに接収されており、8/31で完全終了</description>
     </item>
     
     <item>
       <title>重い腰を上げて...</title>
-      <link>https://example.com/blog/2010/03/post_121/</link>
+      <link>https://masawo.github.io/blog/2010/03/post_121/</link>
       <pubDate>Mon, 22 Mar 2010 03:00:00 +0900</pubDate>
       
-      <guid>https://example.com/blog/2010/03/post_121/</guid>
+      <guid>https://masawo.github.io/blog/2010/03/post_121/</guid>
       <description>別に体重が増えたわけではないんですが&amp;hellip; 連休中は、個人的に新しく開発を始めるのに必要な本を読んでいました。 EC2を使ってWebサ</description>
     </item>
     
