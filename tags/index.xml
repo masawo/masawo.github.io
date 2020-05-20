@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on wolog</title>
+    <link>https://example.com/tags/</link>
+    <description>Recent content in Tags on wolog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 31 Dec 2012 03:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>購買意欲</title>
+      <link>https://example.com/tags/%E8%B3%BC%E8%B2%B7%E6%84%8F%E6%AC%B2/</link>
+      <pubDate>Mon, 31 Dec 2012 03:00:00 +0900</pubDate>
+      
+      <guid>https://example.com/tags/%E8%B3%BC%E8%B2%B7%E6%84%8F%E6%AC%B2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>サッカー</title>
+      <link>https://example.com/tags/%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC/</link>
+      <pubDate>Thu, 08 Nov 2012 03:00:00 +0900</pubDate>
+      
+      <guid>https://example.com/tags/%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>未分類</title>
+      <link>https://example.com/tags/%E6%9C%AA%E5%88%86%E9%A1%9E/</link>
+      <pubDate>Thu, 08 Nov 2012 03:00:00 +0900</pubDate>
+      
+      <guid>https://example.com/tags/%E6%9C%AA%E5%88%86%E9%A1%9E/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>チラシの裏</title>
+      <link>https://example.com/tags/%E3%83%81%E3%83%A9%E3%82%B7%E3%81%AE%E8%A3%8F/</link>
+      <pubDate>Sun, 28 Oct 2012 03:00:00 +0900</pubDate>
+      
+      <guid>https://example.com/tags/%E3%83%81%E3%83%A9%E3%82%B7%E3%81%AE%E8%A3%8F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>サッカー観戦</title>
+      <link>https://example.com/tags/%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC%E8%A6%B3%E6%88%A6/</link>
+      <pubDate>Sat, 09 Jun 2012 03:00:00 +0900</pubDate>
+      
+      <guid>https://example.com/tags/%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC%E8%A6%B3%E6%88%A6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Android</title>
+      <link>https://example.com/tags/android/</link>
+      <pubDate>Thu, 10 Nov 2011 03:00:00 +0900</pubDate>
+      
+      <guid>https://example.com/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Galaxy Tab</title>
+      <link>https://example.com/tags/galaxy-tab/</link>
+      <pubDate>Thu, 10 Nov 2011 03:00:00 +0900</pubDate>
+      
+      <guid>https://example.com/tags/galaxy-tab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>サーバー</title>
+      <link>https://example.com/tags/%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC/</link>
+      <pubDate>Thu, 01 Sep 2011 03:00:00 +0900</pubDate>
+      
+      <guid>https://example.com/tags/%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>日々</title>
+      <link>https://example.com/tags/%E6%97%A5%E3%80%85/</link>
+      <pubDate>Fri, 12 Aug 2011 03:00:00 +0900</pubDate>
+      
+      <guid>https://example.com/tags/%E6%97%A5%E3%80%85/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>開発系</title>
+      <link>https://example.com/tags/%E9%96%8B%E7%99%BA%E7%B3%BB/</link>
+      <pubDate>Thu, 22 Apr 2010 03:00:00 +0900</pubDate>
+      
+      <guid>https://example.com/tags/%E9%96%8B%E7%99%BA%E7%B3%BB/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

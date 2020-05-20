@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>開発系 on wolog</title>
+    <link>https://example.com/tags/%E9%96%8B%E7%99%BA%E7%B3%BB/</link>
+    <description>Recent content in 開発系 on wolog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Thu, 22 Apr 2010 03:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://example.com/tags/%E9%96%8B%E7%99%BA%E7%B3%BB/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>カジュアルPerl #02に行ってきた</title>
+      <link>https://example.com/blog/2010/04/perl-02/</link>
+      <pubDate>Thu, 22 Apr 2010 03:00:00 +0900</pubDate>
+      
+      <guid>https://example.com/blog/2010/04/perl-02/</guid>
+      <description>Perl初心者勉強会・カジュアルPerl #02に参加してきました。 http://yusukebe.com/archives/10/04/21/075545.html 会場で箇条書きしたものを以下に書きます。 *cpanm(cpanminus) - http://cpanmin.us - 設定不要、スクリプトDL</description>
+    </item>
+    
+    <item>
+      <title>重い腰を上げて...</title>
+      <link>https://example.com/blog/2010/03/post_121/</link>
+      <pubDate>Mon, 22 Mar 2010 03:00:00 +0900</pubDate>
+      
+      <guid>https://example.com/blog/2010/03/post_121/</guid>
+      <description>別に体重が増えたわけではないんですが&amp;hellip; 連休中は、個人的に新しく開発を始めるのに必要な本を読んでいました。 EC2を使ってWebサ</description>
+    </item>
+    
+    <item>
+      <title>MT4.1 から MTOS への移行</title>
+      <link>https://example.com/blog/2008/06/mt41_mtos/</link>
+      <pubDate>Thu, 19 Jun 2008 03:00:00 +0900</pubDate>
+      
+      <guid>https://example.com/blog/2008/06/mt41_mtos/</guid>
+      <description>&lt;p&gt;MT4.2 が出そうな昨今に &lt;a href=&#34;http://gihyo.jp/magazine/WSE/archive/2008/vol18&#34;&gt;WebSite expert #18&lt;/a&gt; を読んだら、MTOSにしたくなってきたので入れ替えてみました。&lt;/p&gt;
+&lt;p&gt;入れたバージョンは &lt;a href=&#34;http://www.movabletype.org/opensource/downloads/nightlies/&#34;&gt;Nightly Builds&lt;/a&gt; にある MTOS-4.2-en-release-39-r2511-20080604 。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.movabletype.jp/documentation/start_backup.html&#34;&gt;ブログの完全バックアップと、データベースのバックアップ | Movable Type 4 ドキュメント&lt;/a&gt;
+を参考に、ブログの完全バックアップを取る&lt;/li&gt;
+&lt;li&gt;念のため mt/ 以下のバックアップと、mysqldumpも取得&lt;/li&gt;
+&lt;li&gt;mt/ 以下を抹消して、MTOSをインストール&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.movabletype.jp/documentation/start_restore.html&#34;&gt;バックアップしたブログの復元 | Movable Type 4 ドキュメント&lt;/a&gt;
+の手順で、バックアップしたブログを復元&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;結構スムーズにできた、かな。&lt;/p&gt;
+&lt;p&gt;ついでに使用データベースを、MySQL から SQLite に変えてみました。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>さくらインターネットで vim7, Subversion, Trac</title>
+      <link>https://example.com/blog/2008/05/_vim7_subversion_trac/</link>
+      <pubDate>Fri, 30 May 2008 03:00:00 +0900</pubDate>
+      
+      <guid>https://example.com/blog/2008/05/_vim7_subversion_trac/</guid>
+      <description>&lt;p&gt;このブログの置いてある、さくらインターネットのレンタルサーバの環境を整えようと、vim7 や Subversion やら Trac を導入してみました。&lt;/p&gt;
+&lt;p&gt;やはり、既にやってる方のログを真似することに。&lt;/p&gt;
+&lt;p&gt;まずは↓の内容の通りに、それぞれインストール。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.ruche-home.net/sakura.html&#34;&gt;さくらサーバをオレ色に染めてみる&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;※最初、neonなどの各アプリは最新のものをわざわざ見つけてきて試したのですが、依存関係などがあってハマってしまいました&amp;hellip;(最終的にはneonを25.xでビルドしなおしたら解決)&lt;/p&gt;
+&lt;p&gt;書いてあるままのバージョンのものを導入すれば問題ないのではと思います。&lt;/p&gt;
+&lt;p&gt;で、Tracがとりあえずブラウザで見えるようになったら、↓を見ながら設定。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.machu.jp/diary/20070718.html#p01&#34;&gt;さくらインターネットで Subversion + Trac - まちゅダイアリー (2007-07-18)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;とりあえず構築だけしたってことで、まだ使い道はノープラン。。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

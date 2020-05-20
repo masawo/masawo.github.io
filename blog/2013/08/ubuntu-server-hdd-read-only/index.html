@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#494f5c">
+	<meta name="msapplication-TileColor" content="#494f5c"><meta itemprop="name" content="自宅サーバがread-onlyになってた&amp;修復">
+<meta itemprop="description" content="自宅サーバのUbuntuにちょっと久しぶりにログインしたら、read-only file system などという文言が。 数日前からHDDの片方が怪しくなって、R">
+<meta itemprop="datePublished" content="2013-08-11T21:19:00&#43;09:00" />
+<meta itemprop="dateModified" content="2013-08-11T21:19:00&#43;09:00" />
+<meta itemprop="wordCount" content="679">
+
+
+
+<meta itemprop="keywords" content="" /><meta property="og:title" content="自宅サーバがread-onlyになってた&amp;修復" />
+<meta property="og:description" content="自宅サーバのUbuntuにちょっと久しぶりにログインしたら、read-only file system などという文言が。 数日前からHDDの片方が怪しくなって、R" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.com/blog/2013/08/ubuntu-server-hdd-read-only/" />
+<meta property="article:published_time" content="2013-08-11T21:19:00+09:00" />
+<meta property="article:modified_time" content="2013-08-11T21:19:00+09:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="自宅サーバがread-onlyになってた&amp;修復"/>
+<meta name="twitter:description" content="自宅サーバのUbuntuにちょっと久しぶりにログインしたら、read-only file system などという文言が。 数日前からHDDの片方が怪しくなって、R"/>
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	<title>自宅サーバがread-onlyになってた&amp;修復</title>
+	<link rel="stylesheet" href="https://example.com/css/style.min.414ce1f9c890e5ea78db294d1fe07417fdb3f4c55a185e3137e9ed3185eadb52.css" integrity="sha256-QUzh+ciQ5ep42ylNH+B0F/2z9MVaGF4xN+ntMYXq21I=">
+	
+</head>
+
+<body id="page">
+	
+	<header id="site-header" class="animated slideInUp faster">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<div class="site-branding">
+					<a href="https://example.com">wolog</a>
+				</div>
+				<nav class="site-nav hide-in-mobile">
+					<a href="https://example.com/posts/">Posts</a>
+					<a href="https://example.com/about/">About</a>
+				</nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<span class="hdr-social hide-in-mobile"><a href="https://twitter.com/masawo" target="_blank" rel="noopener" title="Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a><a href="https://instagram.com/masawo77" target="_blank" rel="noopener" title="Instagram"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line></svg></a><a href="https://github.com/masawo" target="_blank" rel="noopener" title="Github"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></span><button id="menu-btn" class="hdr-btn" title=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast">
+		<ul>
+			<li><a href="https://example.com/posts/">Posts</a></li>
+			<li><a href="https://example.com/about/">About</a></li>
+		</ul>
+	</div>
+
+
+	<main class="site-main section-inner animated fadeIn faster">
+		<article class="thin">
+			<header class="post-header">
+				<div class="post-meta"><span>Aug 11, 2013</span></div>
+				<h1>自宅サーバがread-onlyになってた&amp;修復</h1>
+			</header>
+			<div class="content">
+				<p>自宅サーバのUbuntuにちょっと久しぶりにログインしたら、read-only file system などという文言が。<br>
+数日前からHDDの片方が怪しくなって、RAIDが解除されてこの状態になってたみたい。<br>
+この週末はこれをどう直そうか調べたり、他の手段を考えたりしているうちに終わってしまいました。この機会にNASにでも移行したほうがいいのかなあ、でも高いしな、とか。。</p>
+<!-- more -->
+<iframe src="//instagram.com/p/c3tQByCSun/embed/" width="612" height="710" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+<p>問題のHDDはRAID1構成にしてた1台目のほうで、再起動するとread-onlyになったりならなかったりして不安定な状態。<br>
+今回の自宅サーバだとシステム領域はデータとは別に切ってあって、RAIDはデータ部分だけ取っているという環境です(導入時になぜかHDD全体ごとのRAIDができなかったので)。</p>
+<p>とりあえずシステムのデータを2台目にddでコピーして、1台目をRAIDから切り離したあとにshutdown。<br>
+物理的にHDD1台目を外して起動しなおし、RAIDを解除したりfstabの設定を書き換えたりして、通常の動作に戻りました。</p>
+<p>てことで今はHDD単独の体制で、いつ災いが起こるか分からない状態。<br>
+まめに他HDDにバックアップを取っているつもりなので、それでもなんとかなるけれど、不安なのでやっぱりNASを買うべきかなあ。</p>
+<p>NASはいろいろ調べた中では QNAP TurboNAS TS-220 というのが気になりました。<br>
+<a href="http://www.qnap.com/jp/index.php?lang=jp&amp;sn=699&amp;c=328&amp;sc=601&amp;t=610&amp;n=18427">QNAP Systems, Inc. - ネットワーク接続ストレージ - 製品紹介 - 製品紹介 - ストレージ - ホーム＆SOHO - 2 ベイ - TS-220</a></p>
+<iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=masawo-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=B00CF9VFSU" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+<iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=masawo-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=B008P56QTG" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+<h3 id="参考">参考</h3>
+<p>◇mdadmによるRAIDの解除◇初心者のためのLinuxサーバー構築講座(CentOS 自宅サーバー対応)☆お便利サーバー.com☆ <a href="http://www.obenri.com/_raid_create/delete_mdadm.html">http://www.obenri.com/_raid_create/delete_mdadm.html</a></p>
+
+			</div>
+			<hr class="post-end">
+			<footer class="post-info">
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg></p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2013-08-11 21:19 &#43;0900</p>
+			</footer>
+		</article>
+		<div class="post-nav thin">
+			<a class="next-post" href="https://example.com/blog/2013/09/i-ordered-iphone5s-au/">
+				<span class="post-nav-label"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>&nbsp;</span><br><span>iPhone5S(au)を予約した</span>
+			</a>
+			<a class="prev-post" href="https://example.com/blog/2013/07/from-wordpress-to-octopress/">
+				<span class="post-nav-label">&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>WordpressからOctopressに移行</span>
+			</a>
+		</div>
+		<div id="comments" class="thin">
+</div>
+	</main>
+
+	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+		<p>&copy; 2020 <a href="https://example.com">Masao S</a> &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></p>
+		<p>
+			Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; Theme <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="https://example.com/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+		</p>
+	</footer>
+
+
+	<script src="https://example.com/js/main.min.8f39f24808e9d0a9b02da58c2d2838da859dc0b7bdfadbdb1883aae8b6adacfe.js" integrity="sha256-jznySAjp0KmwLaWMLSg42oWdwLe9+tvbGIOq6LatrP4="></script>
+
+</body>
+
+</html>

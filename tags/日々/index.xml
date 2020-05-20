@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>日々 on wolog</title>
+    <link>https://example.com/tags/%E6%97%A5%E3%80%85/</link>
+    <description>Recent content in 日々 on wolog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Fri, 12 Aug 2011 03:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://example.com/tags/%E6%97%A5%E3%80%85/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>近況</title>
+      <link>https://example.com/blog/2011/08/recent/</link>
+      <pubDate>Fri, 12 Aug 2011 03:00:00 +0900</pubDate>
+      
+      <guid>https://example.com/blog/2011/08/recent/</guid>
+      <description>今月に入ってから、ゆっくりしています。 詳細は別の日記に書いたとおりです。 どこか旅行とかしたいなと思ったりしますが、今は夏休みシーズンだからど</description>
+    </item>
+    
+    <item>
+      <title>Action Stream をはじめてみた</title>
+      <link>https://example.com/blog/2008/07/action_stream/</link>
+      <pubDate>Tue, 01 Jul 2008 03:00:00 +0900</pubDate>
+      
+      <guid>https://example.com/blog/2008/07/action_stream/</guid>
+      <description>ときどきブログで見かける Action Stream というものを、ここでもやってみました。 以下を参考にしながら。 Action Stream をなんとなく入れてみました - メモログ plugin のアーカイ</description>
+    </item>
+    
+    <item>
+      <title>日本×中国</title>
+      <link>https://example.com/blog/2008/02/post_99/</link>
+      <pubDate>Thu, 21 Feb 2008 03:00:00 +0900</pubDate>
+      
+      <guid>https://example.com/blog/2008/02/post_99/</guid>
+      <description>さっき録画を見終えました。 いやはや、見ていてちょっと違った意味でヒヤヒヤした試合だったな… サッカー以外の何かが入ってきちゃうと、試合になんな</description>
+    </item>
+    
+    <item>
+      <title>自宅PCの不調を検証</title>
+      <link>https://example.com/blog/2007/12/pc_3/</link>
+      <pubDate>Sun, 30 Dec 2007 03:00:00 +0900</pubDate>
+      
+      <guid>https://example.com/blog/2007/12/pc_3/</guid>
+      <description>自宅の自作PCで、PSP向けの動画を携帯動画変換君でエンコードしていると、高確率でブルースクリーンやフリーズが発生してしまうという罠に最近気</description>
+    </item>
+    
+    <item>
+      <title>Mac不調→回復</title>
+      <link>https://example.com/blog/2007/11/mac/</link>
+      <pubDate>Tue, 20 Nov 2007 03:00:00 +0900</pubDate>
+      
+      <guid>https://example.com/blog/2007/11/mac/</guid>
+      <description>今朝にMacbook Pro を開いたら、なぜかspotlightが使えなかったり、アプリのメニューをちょっと触っただけでマウスポインタが虹になって</description>
+    </item>
+    
+    <item>
+      <title>オルトアール総合雑談中心が７月で終了</title>
+      <link>https://example.com/blog/2007/07/post_96/</link>
+      <pubDate>Mon, 30 Jul 2007 03:00:00 +0900</pubDate>
+      
+      <guid>https://example.com/blog/2007/07/post_96/</guid>
+      <description>&lt;p&gt;&lt;a title=&#34;ML1--7年間ありがとうございました&#34; href=&#34;http://www.alt-r.com/di/ml-2-1771.html&#34;&gt;ML1&amp;ndash;7年間ありがとうございました&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ドメインがハイジャックされてしまったために終了するそうです。&lt;/p&gt;
+&lt;p&gt;開始当初から知る身としては、さびしいですな。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PerlのモジュールをPHP4のクラスに置き換える際の勘所</title>
+      <link>https://example.com/blog/2007/06/perlphp4/</link>
+      <pubDate>Thu, 28 Jun 2007 03:00:00 +0900</pubDate>
+      
+      <guid>https://example.com/blog/2007/06/perlphp4/</guid>
+      <description>&lt;p&gt;表題のことを実際にやってみて、つまづいたりここがポイントかもと感じた点を挙げてみます。&lt;/p&gt;
+&lt;p&gt;試行錯誤していて思ったことなので、間違った点もあるかもしれません。&lt;/p&gt;
+&lt;p&gt;・PHPにはPerlでいう、サブルーチンリファレンスという概念がない。&lt;/p&gt;
+&lt;p&gt;→「呼ぶべきサブルーチン名を一旦得てからeval」で代用。（他に何かいい方法あるのかな。。）&lt;/p&gt;
+&lt;p&gt;・正規表現でのパターンマッチや置換処理は Perl互換正規表現関数 preg_* を
+使うことになるが、Perl とはかなりやり方が異なるため慣れるまで戸惑う
+(preg_match_all のフラグ指定のところとか)。マニュアル首っぴきモード。&lt;/p&gt;
+&lt;p&gt;・Perl互換正規表現関数 preg_* では、Perl で使えていたオプションのうち
+使えないものがいくつかある。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;/g, /o の指定不可。(/g はデフォルトON。特定数だけのマッチにしたい場合には関数のオプション指定をする)&lt;/li&gt;
+&lt;li&gt;/e は preg_replace のみで使用可能。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;・PHP4では、派生クラスのコンストラクタから基底クラスのコンストラクタを自動的にコールすることはできない(via &lt;a href=&#34;http://jp2.php.net/manual/ja/language.oop.constructor.php&#34;&gt;PHPマニュアル&lt;/a&gt;)。
+→派生クラスのコンストラクタ内でそのようなコールを直接書く必要がある。&lt;/p&gt;
+&lt;p&gt;・PHP4では、varで宣言するクラス変数については定数による初期化のみが可能。
+動的な値で初期化しようとするとエラーになる(via &lt;a href=&#34;http://jp2.php.net/manual/ja/language.oop.php&#34;&gt;PHPマニュアル&lt;/a&gt;)。
+→動的な値で初期化したい場合はコンストラクタ内で行わせる必要がある。&lt;/p&gt;
+&lt;p&gt;・Perl的モジュール構成と同じようなファイル構成にする方法
+→サブクラスのコードの冒頭で、基底クラスのファイルを require_once させる。&lt;/p&gt;
+&lt;p&gt;Perl で
+(Foo/Bar.pm, クラス名 Foo::Bar)&lt;/p&gt;
+&lt;blockquote&gt;
+package Foo::Bar;
+use Foo;
+..
+&lt;/blockquote&gt;
+なら、PHPでは
+&lt;p&gt;(Foo/Bar.php, クラス名 Foo_Bar)&lt;/p&gt;
+&lt;blockquote&gt;require_once(&#34;Foo.php&#34;);
+class Foo_Bar { .. }
+&lt;/blockquote&gt;
+といった具合に。こうすればPerl側の構成と同じような作りにできる。
+&lt;p&gt;（このとき、つくったクラスをシンプルにrequireできるよう、 include_path の設定を
+ini_set() なり php.ini なり .htaccess なりで設定しておくのが吉）&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>IT戦士の本</title>
+      <link>https://example.com/blog/2007/06/it/</link>
+      <pubDate>Wed, 13 Jun 2007 03:00:00 +0900</pubDate>
+      
+      <guid>https://example.com/blog/2007/06/it/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.itmedia.co.jp/&#34;&gt;ITMedia&lt;/a&gt;でおなじみの、IT戦士こと岡田記者の本「ネットで人生、変わりましたか？」の発売を知り、さっそく先週に購入。少しずつ読んで今日読了しました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/4797337370/masawo-22/ref=nosim/&#34; name=&#34;amazletlink&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://ec1.images-amazon.com/images/I/11kaZufjZuL.jpg&#34; alt=&#34;ネットで人生、変わりましたか?&#34; style=&#34;border: none;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a title=&#34;IT戦士　岡田有花リンク集&#34; href=&#34;http://www8.plala.or.jp/garden/note/it.html&#34;&gt;IT戦士　岡田有花リンク集&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>HDDレコーダー故障</title>
+      <link>https://example.com/blog/2007/06/hdd/</link>
+      <pubDate>Sun, 10 Jun 2007 03:00:00 +0900</pubDate>
+      
+      <guid>https://example.com/blog/2007/06/hdd/</guid>
+      <description>うちのHDDレコーダー RD-XS57 でDVDへのダビングを行っていたら、途中でエラーの表示が出て操作不能な状態に。 電源長押しで操作自体は元に戻ったものの</description>
+    </item>
+    
+    <item>
+      <title>旧メールアドレス解約</title>
+      <link>https://example.com/blog/2007/06/post_93/</link>
+      <pubDate>Sat, 09 Jun 2007 03:00:00 +0900</pubDate>
+      
+      <guid>https://example.com/blog/2007/06/post_93/</guid>
+      <description>&lt;p&gt;ネットをはじめて以来メインで使ってきたメールアドレス(stojko at po.sakura.ne.jp)を、7月いっぱいで解約します。&lt;/p&gt;
+&lt;p&gt;既に今年に入ってからメインのアドレスを別のものにし、公開用にはgmailのアカウントを使ってます。&lt;/p&gt;
+&lt;p&gt;各Webサービスでのアドレス変更手続きもあらかた終えました。&lt;/p&gt;
+&lt;p&gt;旧メールアドレスに今後送られても8月以降は反応できませんので、あしからず。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

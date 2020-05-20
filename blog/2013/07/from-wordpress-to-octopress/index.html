@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#494f5c">
+	<meta name="msapplication-TileColor" content="#494f5c"><meta itemprop="name" content="WordpressからOctopressに移行">
+<meta itemprop="description" content="7月の始めごろに、このブログを Wordpress から Octopress に移行していました。
+移行した理由は主に
+
+Wordpress がレンタルサーバ上で動いているため表示に時間がかかりがちで、開くだけでもストレス
+管理画面でも同様なので、書く気が萎えがち(それで更新も億劫になっていた)
+
+という感じです。">
+<meta itemprop="datePublished" content="2013-07-31T22:03:00&#43;09:00" />
+<meta itemprop="dateModified" content="2013-07-31T22:03:00&#43;09:00" />
+<meta itemprop="wordCount" content="1277">
+
+
+
+<meta itemprop="keywords" content="" /><meta property="og:title" content="WordpressからOctopressに移行" />
+<meta property="og:description" content="7月の始めごろに、このブログを Wordpress から Octopress に移行していました。
+移行した理由は主に
+
+Wordpress がレンタルサーバ上で動いているため表示に時間がかかりがちで、開くだけでもストレス
+管理画面でも同様なので、書く気が萎えがち(それで更新も億劫になっていた)
+
+という感じです。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.com/blog/2013/07/from-wordpress-to-octopress/" />
+<meta property="article:published_time" content="2013-07-31T22:03:00+09:00" />
+<meta property="article:modified_time" content="2013-07-31T22:03:00+09:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="WordpressからOctopressに移行"/>
+<meta name="twitter:description" content="7月の始めごろに、このブログを Wordpress から Octopress に移行していました。
+移行した理由は主に
+
+Wordpress がレンタルサーバ上で動いているため表示に時間がかかりがちで、開くだけでもストレス
+管理画面でも同様なので、書く気が萎えがち(それで更新も億劫になっていた)
+
+という感じです。"/>
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	<title>WordpressからOctopressに移行</title>
+	<link rel="stylesheet" href="https://example.com/css/style.min.414ce1f9c890e5ea78db294d1fe07417fdb3f4c55a185e3137e9ed3185eadb52.css" integrity="sha256-QUzh+ciQ5ep42ylNH+B0F/2z9MVaGF4xN+ntMYXq21I=">
+	
+</head>
+
+<body id="page">
+	
+	<header id="site-header" class="animated slideInUp faster">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<div class="site-branding">
+					<a href="https://example.com">wolog</a>
+				</div>
+				<nav class="site-nav hide-in-mobile">
+					<a href="https://example.com/posts/">Posts</a>
+					<a href="https://example.com/about/">About</a>
+				</nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<span class="hdr-social hide-in-mobile"><a href="https://twitter.com/masawo" target="_blank" rel="noopener" title="Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a><a href="https://instagram.com/masawo77" target="_blank" rel="noopener" title="Instagram"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line></svg></a><a href="https://github.com/masawo" target="_blank" rel="noopener" title="Github"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></span><button id="menu-btn" class="hdr-btn" title=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast">
+		<ul>
+			<li><a href="https://example.com/posts/">Posts</a></li>
+			<li><a href="https://example.com/about/">About</a></li>
+		</ul>
+	</div>
+
+
+	<main class="site-main section-inner animated fadeIn faster">
+		<article class="thin">
+			<header class="post-header">
+				<div class="post-meta"><span>Jul 31, 2013</span></div>
+				<h1>WordpressからOctopressに移行</h1>
+			</header>
+			<div class="content">
+				<p>7月の始めごろに、このブログを Wordpress から Octopress に移行していました。</p>
+<p>移行した理由は主に</p>
+<ul>
+<li>Wordpress がレンタルサーバ上で動いているため表示に時間がかかりがちで、開くだけでもストレス</li>
+<li>管理画面でも同様なので、書く気が萎えがち(それで更新も億劫になっていた)</li>
+</ul>
+<p>という感じです。</p>
+<p>他のブログサービスへの移転も考えましたが、</p>
+<ul>
+<li>これまでのURLをなるべく生かしたい</li>
+<li>OctopressはRubyで作られているので,PHPなWordpressよりはいじり甲斐がありそう</li>
+<li>静的なHTMLにすれば表示速度は最強だろう</li>
+</ul>
+<p>と思い、Octopressへの移行をしました。</p>
+<h2 id="データの移行">データの移行</h2>
+<ul>
+<li><a href="http://octopress.org/docs/">http://octopress.org/docs/</a></li>
+<li><a href="http://jekyllrb.com/docs/migrations/">http://jekyllrb.com/docs/migrations/</a></li>
+</ul>
+<p>を見ながら、WPの管理画面でexportしたXMLでデータのmigrationを実施。</p>
+<p>※ <a href="https://github.com/benbalter/wordpress-to-jekyll-exporter">https://github.com/benbalter/wordpress-to-jekyll-exporter</a>
+でWP管理画面からzipに落とせるみたいだけど、うまく動かず。</p>
+<h2 id="記事の調整">記事の調整</h2>
+<p>あとは生成された記事のファイル名を .html -&gt; .markdown に変えて（スクリプト作ってrenameしました）、あとは記事1つ1つを確認しつつ調整。<br>
+Octopress では記事を markdown の記法で書くので、&ldquo;改行するのは行末に空白2つ&rdquo; などの書き方を覚えるのに若干手間取りつつ進行。<br>
+こんな過疎ブログでも300件程度の記事があったので、空いた時間に少しずつ進めていくようにして、数日かかって完了しました。</p>
+<p>画像パスを
+wp/wp-content/uploads -&gt; images/uploads
+に変えるところはエディタ(Sublime Text)で一斉置換しました。<br>
+（後から考えると .htaccess にパス移動仕込めば済む話だったかも）</p>
+<h3 id="記事全体の生成">記事全体の生成</h3>
+<pre><code>$ rake generate
+</code></pre>
+<h3 id="新しい記事の作成">新しい記事の作成</h3>
+<pre><code>$ rake new_post[&quot;title&quot;]
+</code></pre>
+<h2 id="旧urlからのredirect">旧URLからのredirect</h2>
+<p>各記事のURLが /wp/some_entry.html から /blog/some_entry.html へ変更になるので、 新URLへ移動するよう .htaccess に設定。</p>
+<pre><code>Redirect permanent /wp/atom.xml http://wo.skr.jp/atom.xml
+RedirectMatch permanent /wp/(.*) http://wo.skr.jp/blog/$1
+</code></pre>
+<p>301 Redirect Parmanent にするので、SEO的にも安心（たしか）。</p>
+<h2 id="deploy">deploy</h2>
+<p>Octopressは静的なファイルたちを生成するので、それをアップするだけです。  標準では設定を少し書けばrsyncでファイルを送れるようになっているので、 <a href="http://octopress.org/docs/deploying/rsync/">Deploying with rsync - Octopress</a> の通りにするだけ。</p>
+<pre><code>$ rake deploy
+</code></pre>
+<p>で、自分の場合は30秒もかからず反映が終わります。<br>
+さくらのレンタルサーバだと rsync が使えるので良かったですが、使えないサーバだとやっかいかも。</p>
+<h2 id="デザインの調整">デザインの調整</h2>
+<p>テーマというものを導入すると、デザインが簡単に変えられます。<br>
+以下でいろいろ探してみました。<br>
+<a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">3rd Party Octopress Themes · imathis/octopress Wiki</a></p>
+<p>で、以下のテーマにしました。<br>
+<a href="https://github.com/wallace/justin-kelly-theme">https://github.com/wallace/justin-kelly-theme</a></p>
+<p>あとは source/_includes 以下のファイルを主にいじって、以下のような変更をしました。基本的にHTML。</p>
+<ul>
+<li><a href="http://www.mk-mode.com/octopress/2012/12/31/octopress-facebook-ogp/">Octopress - Facebook OGP 設定！ - mk-mode BLOG</a></li>
+<li><a href="http://msaisai.github.io/blog/2013/06/19/octopress-twitter/">OctopressのサイドバーにTwitterのタイムラインを埋め込む - MSaiSai&rsquo;s Blog</a></li>
+<li>Facebook Like, Disqus の設定</li>
+<li>はてなブックマークのボタン</li>
+<li>Google Adsenseとか</li>
+</ul>
+<h2 id="移行後1ヶ月経ってみて">移行後1ヶ月経ってみて</h2>
+<p>月末近くになって、ようやく一通り調整が済んだかなあというところです。<br>
+ブログ用にどこかVPS的なサーバを別に借りるべきかと思っていましたが、そこまでするのもなあと思ってました。引き続きレンタルサーバのスペースを生かせるし、レスポンス問題も解決できたのでひとまず満足です。</p>
+<p>アクセス数は特に変化ないんですが、少なくとも表示まで時間がかかるストレスは解消されたはずなので、あとは本人がまめに記事を書くだけ。。汗</p>
+			</div>
+			<hr class="post-end">
+			<footer class="post-info">
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg></p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2013-07-31 22:03 &#43;0900</p>
+			</footer>
+		</article>
+		<div class="post-nav thin">
+			<a class="next-post" href="https://example.com/blog/2013/08/ubuntu-server-hdd-read-only/">
+				<span class="post-nav-label"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>&nbsp;</span><br><span>自宅サーバがread-onlyになってた&amp;修復</span>
+			</a>
+			<a class="prev-post" href="https://example.com/blog/2013/07/shinji-kagawa-event/">
+				<span class="post-nav-label">&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>「香川真司のおもてなし」を受けてきた</span>
+			</a>
+		</div>
+		<div id="comments" class="thin">
+</div>
+	</main>
+
+	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+		<p>&copy; 2020 <a href="https://example.com">Masao S</a> &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></p>
+		<p>
+			Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; Theme <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="https://example.com/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+		</p>
+	</footer>
+
+
+	<script src="https://example.com/js/main.min.8f39f24808e9d0a9b02da58c2d2838da859dc0b7bdfadbdb1883aae8b6adacfe.js" integrity="sha256-jznySAjp0KmwLaWMLSg42oWdwLe9+tvbGIOq6LatrP4="></script>
+
+</body>
+
+</html>

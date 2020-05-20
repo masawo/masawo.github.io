@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Galaxy Tab on wolog</title>
+    <link>https://example.com/tags/galaxy-tab/</link>
+    <description>Recent content in Galaxy Tab on wolog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Thu, 10 Nov 2011 03:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://example.com/tags/galaxy-tab/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Galaxy Tab にPDFを転送して、開くまで</title>
+      <link>https://example.com/blog/2011/11/galaxy-tab-%E3%81%ABpdf%E3%82%92%E8%BB%A2%E9%80%81%E3%81%97%E3%81%A6%E9%96%8B%E3%81%8F%E3%81%BE%E3%81%A7/</link>
+      <pubDate>Thu, 10 Nov 2011 03:00:00 +0900</pubDate>
+      
+      <guid>https://example.com/blog/2011/11/galaxy-tab-%E3%81%ABpdf%E3%82%92%E8%BB%A2%E9%80%81%E3%81%97%E3%81%A6%E9%96%8B%E3%81%8F%E3%81%BE%E3%81%A7/</guid>
+      <description>PDFを、Galaxy Tab 8.9 に転送して閲覧したときのメモです。サクっと終わるのかと思ったらちょっと手間取ってしまった。。（転送したのは、Web</description>
+    </item>
+    
+  </channel>
+</rss>
