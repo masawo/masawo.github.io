@@ -23,6 +23,17 @@
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Firefox 1.5の定番拡張(extension)リンク集"/>
 <meta name="twitter:description" content="家のPCに、Firefox1.5をイチからインストールして設定した。先日会社環境で入れてた拡張をもとにしたけれど、その拡張たちのありかと軽い説明を書いてみる。個人的なもの(del.icio.usとか終盤のとか)を除けばどれも使える拡張だと思うので、参考になれば。Tab Mix Plushttp://tmp.gary.elixant.com/タブ生活充実系。&hellip;なぜか「前回のセッションを復元」がうまく動かなかった。以下の0.3Betaを代わりに使ってみたらできた（設定画面が少し変わっている）。http://tmp.garyr.net/beta%200.3/Copy URL&#43;http://copyurlplus.mozdev.org/installation.html以下のサイトを参考にして、user.jsに追記するとコピペ生活が大変充実。http://www.plant4.co.uk/?itemid=80自分はこんな感じ&darr; あ、シャープのある行はもちろん省きますよ------#ページのタイトルのみペーストuser_pref(&#39;copyurlplus.menus.1.label&#39;,&#39;Copy Title&#39;);user_pref(&#39;copyurlplus.menus.1.copy&#39;,&#39;%TITLE%&#39;);#URLにリンク用タグを付けてペーストuser_pref(&#39;copyurlplus.menus.2.label&#39;,&#39;Create Link&#39;);user_pref(&#39;copyurlplus.menus.2.copy&#39;,&#39;&lt;a href=&quot;%URL%&quot; title=&quot;%TITLE%&quot;&gt;%TITLE%&lt;/a&gt;&#39;);#選択中のテキストをblockquoteタグを付けてペーストuser_pref(&#39;copyurlplus.menus.3.label&#39;,&#39;Create Blockquote&#39;);user_pref(&#39;copyurlplus.menus.3.copy&#39;,&#39;&lt;blockquote cite=&quot;%URL%&quot;&gt;\n&lt;p&gt;%SEL%&lt;/p&gt;\n&lt;/blockquote&gt;&#39;);------All-in-One Gestureshttps://addons.mozilla.org/extensions/moreinfo.php?id=12これなしでは不便になりつつある今日この頃。（右クリック&#43;左ドラッグとかがもはや癖になってる）Gmail Notifierhttp://www.nexgenmedia.net/extensions/Gmailのメールが着弾するとお知らせしてくれる※Y!検索で普通に検索すると、本家謹製のツールバー(Win/Mac)がヒットする。Web Developer 日本語版http://www.infoaxia.com/tools/webdeveloper/Webデザイン時には必携LiveLineshttp://heygom.com/extensions/お好きなRSSリーダーへフィードを追加foXposehttps://addons.mozilla.org/extensions/moreinfo.php?application=firefox&amp;id=1457タブ一覧のサムネイルを表示。イイ！（土日にはてなブックマークで知った）del.icio.us toolbarhttp://del.icio.us/help/firefox/extensiondel.icio.us 謹製の拡張。まあbookmarkletだけで事足りてたけど一応入れてみたtargetIconhttp://www.masamunet.com/firefox_extensions/targeticon/別ウインドウで開くリンクやPDFリンクなどが一目でわかるMeasureIthttp://www.kevinfreitas.net/extensions/measureit/ピクセルサイズをさくっと計れる定規IE tabhttps://addons.mozilla.org/extensions/moreinfo.php?id=1419&amp;application=firefoxちょっとIEで開きたくなったときにはこれbbs2chreaderhttps://addons.mozilla.org/extensions/moreinfo.php?id=1560（あまり試してない）2ch閲覧支援Foxage2chhttp://amb.vis.ne.jp/mozilla/foxage2ch/（あまり試してない）2chのお気に入りスレッド管理＆更新チェック。bbs2chreaderとも連携"/>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-50637-6', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
