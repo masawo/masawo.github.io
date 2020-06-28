@@ -5,8 +5,41 @@
 		<description>Recent content in Posts on wolog</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Wed, 20 May 2020 22:14:43 +0900</lastBuildDate>
+		<lastBuildDate>Sun, 28 Jun 2020 21:06:10 +0900</lastBuildDate>
 		<atom:link href="https://masawo.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>meishi2 に Google Meet のショートカットを設定する(macOS)</title>
+			<link>https://masawo.github.io/blog/2020/06/meishi2-%E3%81%AB-google-meet-%E3%81%AE%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%AB%E3%83%83%E3%83%88%E3%82%92%E8%A8%AD%E5%AE%9A%E3%81%99%E3%82%8Bmacos/</link>
+			<pubDate>Sun, 28 Jun 2020 21:06:10 +0900</pubDate>
+			
+			<guid>https://masawo.github.io/blog/2020/06/meishi2-%E3%81%AB-google-meet-%E3%81%AE%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%AB%E3%83%83%E3%83%88%E3%82%92%E8%A8%AD%E5%AE%9A%E3%81%99%E3%82%8Bmacos/</guid>
+			<description>自作キーボードを初めて作るにあたって、練習用に meishi2 を作りました。 G Suite のキーボード ショートカットを使用する - Google Meet ヘルプ これによると、ショートカッ</description>
+			<content type="html"><![CDATA[<p>自作キーボードを初めて作るにあたって、練習用に meishi2 を作りました。
+<img src="/images/IMG_0779.jpg"></p>
+<p><a href="https://support.google.com/meet/answer/9298571?hl=ja&amp;ref_topic=7294099">G Suite のキーボード ショートカットを使用する - Google Meet ヘルプ</a><br>
+これによると、ショートカットキーは以下になっている</p>
+<ul>
+<li>カメラのオンとオフを切り替える	⌘+e または Ctrl+e</li>
+<li>マイクをミュートまたはミュート解除する	⌘+d または Ctrl+d</li>
+</ul>
+<p>QMKで提供されているファームウェアのデフォルトはCtrlキーでの組み合わせになっている。Windowsだとそのまま使えるっぽいけど、今回はmacOSなので ⌘ のほうで設定する必要がある。</p>
+<p>QMK Configurator でカスタムする。<br>
+<a href="https://config.qmk.fm/#/meishi2/LAYOUT">https://config.qmk.fm/#/meishi2/LAYOUT</a>
+を開いて、画面下のパレットから適切に選んでキーマップを設定する。</p>
+<p>Quantum のタブを開くと Mod key combinations という項目があり、⌘ に該当するのは LGui 。なのでそれを上のキーマップのところにドラッグ&amp;ドロップして、そのあと D や E をその上にドラッグ&amp;ドロップ。
+<img src="/images/ISOJIS.png"></p>
+<p>余っている2つには +c, +v を置いた。</p>
+<img src="/images/qmk_200628.png">
+<p>そのあと COMPILE を選んでコンパイル。<br>
+下のFIRMFAREのところが選択可能になるので、これを選んでhexファイルをダウンロードできる。
+あとはこのhexファイルを使って QMK toolkit で書き込めば完了。</p>
+<p>ファームウェア書き込みはCUIでも使うのかと思っていましたが、GUIですべて完了できたのでわりとお手軽でした。<br>
+これで Google Meet するときに meishi2 をつなげば、音声やカメラのOn/Offが捗りそうです。</p>
+<p>本番で作ったキーボードについてはまた改めて書こうと思います。HHKBでできていた Volume Up/Down, Mute が効くようにファームウェア書き込みしたりしました。</p>
+<p>JSONファイルをエクスポートしておくと、あとからインポートすることで設定を再現できるのでやっておくと吉。(今回は4つしかキーがないのでそこまで意味ないかも)</p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>OctopressからHugoへ移行</title>
