@@ -2,102 +2,111 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>wolog</title>
-    <link>https://masawo.github.io/index.html</link>
+    <link>https://masawo.github.io/</link>
     <description>Recent content on wolog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 07 Jul 2020 19:18:51 +0900</lastBuildDate>
     
 	<atom:link href="https://masawo.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Tags</title>
-      <link>https://masawo.github.io/tags/</link>
-      <pubDate>Mon, 31 Dec 2012 03:00:00 +0900</pubDate>
+      <title>自作キーボード 7sPro を作った</title>
+      <link>https://masawo.github.io/blog/2020/07/separate-keyboard-7spro/</link>
+      <pubDate>Tue, 07 Jul 2020 19:18:51 +0900</pubDate>
       
-      <guid>https://masawo.github.io/tags/</guid>
-      <description></description>
+      <guid>https://masawo.github.io/blog/2020/07/separate-keyboard-7spro/</guid>
+      <description>この投稿をInstagramで見る Masao S(@masawo77)がシェアした投稿 - 2020年 6月月30日午後10時19分PDT 2つに分割されたタ</description>
     </item>
     
     <item>
-      <title>購買意欲</title>
-      <link>https://masawo.github.io/tags/%E8%B3%BC%E8%B2%B7%E6%84%8F%E6%AC%B2/</link>
-      <pubDate>Mon, 31 Dec 2012 03:00:00 +0900</pubDate>
+      <title>meishi2 に Google Meet のショートカットを設定する(macOS)</title>
+      <link>https://masawo.github.io/blog/2020/06/meishi2-google-meet-shortcut/</link>
+      <pubDate>Sun, 28 Jun 2020 21:06:10 +0900</pubDate>
       
-      <guid>https://masawo.github.io/tags/%E8%B3%BC%E8%B2%B7%E6%84%8F%E6%AC%B2/</guid>
-      <description></description>
+      <guid>https://masawo.github.io/blog/2020/06/meishi2-google-meet-shortcut/</guid>
+      <description>自作キーボードを初めて作るにあたって、練習用に meishi2 を作りました。 G Suite のキーボード ショートカットを使用する - Google Meet ヘルプ これによると、ショートカッ</description>
     </item>
     
     <item>
-      <title>サッカー</title>
-      <link>https://masawo.github.io/tags/%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC/</link>
-      <pubDate>Thu, 08 Nov 2012 03:00:00 +0900</pubDate>
+      <title>OctopressからHugoへ移行</title>
+      <link>https://masawo.github.io/blog/2020/05/moved/</link>
+      <pubDate>Wed, 20 May 2020 22:14:43 +0900</pubDate>
       
-      <guid>https://masawo.github.io/tags/%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC/</guid>
-      <description></description>
+      <guid>https://masawo.github.io/blog/2020/05/moved/</guid>
+      <description>Octopress -&amp;gt; Hugo への移行を行いました。 (作業詳細などを書く予定)</description>
     </item>
     
     <item>
-      <title>未分類</title>
-      <link>https://masawo.github.io/tags/%E6%9C%AA%E5%88%86%E9%A1%9E/</link>
-      <pubDate>Thu, 08 Nov 2012 03:00:00 +0900</pubDate>
+      <title>About</title>
+      <link>https://masawo.github.io/about/</link>
+      <pubDate>Wed, 20 May 2020 21:54:02 +0900</pubDate>
       
-      <guid>https://masawo.github.io/tags/%E6%9C%AA%E5%88%86%E9%A1%9E/</guid>
-      <description></description>
+      <guid>https://masawo.github.io/about/</guid>
+      <description>wologは masawo による雑記です。 以前はハイパー日記システムを使って日記を書いていましたが、 2003年の初夏あたりに、Movable Typeの存</description>
     </item>
     
     <item>
-      <title>チラシの裏</title>
-      <link>https://masawo.github.io/tags/%E3%83%81%E3%83%A9%E3%82%B7%E3%81%AE%E8%A3%8F/</link>
-      <pubDate>Sun, 28 Oct 2012 03:00:00 +0900</pubDate>
+      <title>deliciousからpinboardに完全移籍</title>
+      <link>https://masawo.github.io/blog/2014/05/from-delicious-to-pinboard/</link>
+      <pubDate>Sat, 17 May 2014 02:40:00 +0900</pubDate>
       
-      <guid>https://masawo.github.io/tags/%E3%83%81%E3%83%A9%E3%82%B7%E3%81%AE%E8%A3%8F/</guid>
-      <description></description>
+      <guid>https://masawo.github.io/blog/2014/05/from-delicious-to-pinboard/</guid>
+      <description>前回のエントリで書いていた通り、ブックマークはdeliciousを母艦にして過ごしてきました。 delicious が4月からなんかおかしい 先月のどこだったかあ</description>
     </item>
     
     <item>
-      <title>サッカー観戦</title>
-      <link>https://masawo.github.io/tags/%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC%E8%A6%B3%E6%88%A6/</link>
-      <pubDate>Sat, 09 Jun 2012 03:00:00 +0900</pubDate>
+      <title>自分のブックマークライフについて</title>
+      <link>https://masawo.github.io/blog/2014/02/my-bookmark-life/</link>
+      <pubDate>Fri, 28 Feb 2014 22:31:00 +0900</pubDate>
       
-      <guid>https://masawo.github.io/tags/%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC%E8%A6%B3%E6%88%A6/</guid>
-      <description></description>
+      <guid>https://masawo.github.io/blog/2014/02/my-bookmark-life/</guid>
+      <description>何年か前からソーシャルブックマークサービス(deliciousやはてなブックマークのような)を使って、気になったサイトのブックマークを日頃つ</description>
     </item>
     
     <item>
-      <title>Android</title>
-      <link>https://masawo.github.io/tags/android/</link>
-      <pubDate>Thu, 10 Nov 2011 03:00:00 +0900</pubDate>
+      <title>2013 season</title>
+      <link>https://masawo.github.io/blog/2013/12/2013-season/</link>
+      <pubDate>Tue, 31 Dec 2013 19:01:00 +0900</pubDate>
       
-      <guid>https://masawo.github.io/tags/android/</guid>
-      <description></description>
+      <guid>https://masawo.github.io/blog/2013/12/2013-season/</guid>
+      <description>&lt;h2 id=&#34;今年買ったガジェット&#34;&gt;今年買ったガジェット&lt;/h2&gt;
+&lt;p&gt;iPhone5S, Nexus5&lt;/p&gt;
+&lt;iframe src=&#34;//instagram.com/p/ilQMOGCSrR/embed/&#34; width=&#34;612&#34; height=&#34;710&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; allowtransparency=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;去年はちといろいろ買いすぎたこともあり、今年は少なめ。&lt;/p&gt;
+&lt;h2 id=&#34;今年行ったサッカー観戦&#34;&gt;今年行ったサッカー観戦&lt;/h2&gt;</description>
     </item>
     
     <item>
-      <title>Galaxy Tab</title>
-      <link>https://masawo.github.io/tags/galaxy-tab/</link>
-      <pubDate>Thu, 10 Nov 2011 03:00:00 +0900</pubDate>
+      <title>iPhone4s→iPhone5S こうかは ばつぐんだ!</title>
+      <link>https://masawo.github.io/blog/2013/11/i-bought-iphone5s/</link>
+      <pubDate>Tue, 19 Nov 2013 22:55:00 +0900</pubDate>
       
-      <guid>https://masawo.github.io/tags/galaxy-tab/</guid>
-      <description></description>
+      <guid>https://masawo.github.io/blog/2013/11/i-bought-iphone5s/</guid>
+      <description>&lt;p&gt;auからiPhone5Sがようやく届いたのは10/25のこと。&lt;br&gt;
+使って1ヶ月ぐらい経ち、すっかりなじんでいます。&lt;/p&gt;
+&lt;iframe src=&#34;//instagram.com/p/f2mp6YiSgZ/embed/&#34; width=&#34;612&#34; height=&#34;710&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; allowtransparency=&#34;true&#34;&gt;&lt;/iframe&gt;</description>
     </item>
     
     <item>
-      <title>サーバー</title>
-      <link>https://masawo.github.io/tags/%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC/</link>
-      <pubDate>Thu, 01 Sep 2011 03:00:00 +0900</pubDate>
+      <title>iPhone5Sに向けて,ケースやスタンド探し</title>
+      <link>https://masawo.github.io/blog/2013/10/iphone-5s-accessories/</link>
+      <pubDate>Thu, 10 Oct 2013 22:37:00 +0900</pubDate>
       
-      <guid>https://masawo.github.io/tags/%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC/</guid>
-      <description></description>
+      <guid>https://masawo.github.io/blog/2013/10/iphone-5s-accessories/</guid>
+      <description>&lt;p&gt;iPhone5Sを予約して10日ほど経ちますが、まだ何も連絡が来ず。。&lt;/p&gt;
+&lt;p&gt;待っている間に、ケースとスタンドを買っておこうと思いました。&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>日々</title>
-      <link>https://masawo.github.io/tags/%E6%97%A5%E3%80%85/</link>
-      <pubDate>Fri, 12 Aug 2011 03:00:00 +0900</pubDate>
+      <title>iPhone5S(au)を予約した</title>
+      <link>https://masawo.github.io/blog/2013/09/i-ordered-iphone5s-au/</link>
+      <pubDate>Mon, 30 Sep 2013 22:10:00 +0900</pubDate>
       
-      <guid>https://masawo.github.io/tags/%E6%97%A5%E3%80%85/</guid>
-      <description></description>
+      <guid>https://masawo.github.io/blog/2013/09/i-ordered-iphone5s-au/</guid>
+      <description>&lt;p&gt;auのオンラインショップで予約してしまいました。シルバー32GB.&lt;br&gt;
+(カラーはグレー以外が希望で、お店行脚するのが面倒なのと、お店で勝手に月額アプリ契約されるのが面倒なので直営オンラインショップにしました)&lt;/p&gt;</description>
     </item>
     
   </channel>

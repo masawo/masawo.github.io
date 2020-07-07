@@ -6,10 +6,19 @@
     <description>Recent content in Tags on wolog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 31 Dec 2012 03:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2020 19:18:51 +0900</lastBuildDate>
     
 	<atom:link href="https://masawo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>keyboard</title>
+      <link>https://masawo.github.io/tags/keyboard/</link>
+      <pubDate>Tue, 07 Jul 2020 19:18:51 +0900</pubDate>
+      
+      <guid>https://masawo.github.io/tags/keyboard/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>購買意欲</title>
@@ -89,15 +98,6 @@
       <pubDate>Fri, 12 Aug 2011 03:00:00 +0900</pubDate>
       
       <guid>https://masawo.github.io/tags/%E6%97%A5%E3%80%85/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>開発系</title>
-      <link>https://masawo.github.io/tags/%E9%96%8B%E7%99%BA%E7%B3%BB/</link>
-      <pubDate>Thu, 22 Apr 2010 03:00:00 +0900</pubDate>
-      
-      <guid>https://masawo.github.io/tags/%E9%96%8B%E7%99%BA%E7%B3%BB/</guid>
       <description></description>
     </item>
     
